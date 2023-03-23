@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main() {
+    int num = 42; // Replace 42 with your desired integer
+    printf("%d", num);
+    return 0;
+}
