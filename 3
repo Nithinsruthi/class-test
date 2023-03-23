@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10, b = 20;
+    int sum = 0, diff = 0, prod = 0;
+    int *ptr_a = &a, *ptr_b = &b;
+    
+    // Adding two numbers using pointers
+    sum = *ptr_a + *ptr_b;
+    
+    // Subtracting two numbers using pointers
+    diff = *ptr_a - *ptr_b;
+    
+    // Multiplying two numbers using pointers
+    prod = *ptr_a * *ptr_b;
+    
+    // Printing the results
+    printf("Sum = %d, Difference = %d, Product = %d", sum, diff, prod);
+    
+    return 0;
+}
+mark file: 
+Sum = 30, Difference = -10, Product = 200
+
+
